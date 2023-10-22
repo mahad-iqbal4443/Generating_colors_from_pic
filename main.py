@@ -5,94 +5,7 @@ import colorgram
 
 turtle.colormode(255)
 my_turtle = Turtle()
-# my_turtle.shape("turtle")
-# my_turtle.color("Khaki4")
-# for _ in range(4):
-#     my_turtle.forward(100)
-#     my_turtle.left(90)
-
-
-# Drawing a Dashed line
-# for _ in range(15):
-#     turtle.fo![](../../OneDrive/Desktop/my_pic.jpg)forward(10)
-#     turtle.penup()
-#     turtle.forward(10)
-#     turtle.pendown()
-
-
-# # Drawing Shapes of different colors
-# for _ in range(3):
-#     my_turtle.pencolor("PapayaWhip")
-#     my_turtle.forward(100)
-#     my_turtle.right(120)
-# for _ in range(4):
-#     my_turtle.pencolor("PaleGreen")
-#     my_turtle.forward(100)
-#     my_turtle.right(90)
-# for _ in range(5):
-#     my_turtle.pencolor("LightSteelBlue2")
-#     my_turtle.forward(100)
-#     my_turtle.right(72)
-# for _ in range(6):
-#     my_turtle.pencolor("MediumPurple1")
-#     my_turtle.forward(100)
-#     my_turtle.right(60)
-# for _ in range(7):
-#     my_turtle.pencolor("NavajoWhite")
-#     my_turtle.forward(100)
-#     my_turtle.right(51.428)
-# for _ in range(8):
-#     my_turtle.pencolor("snow4")
-#     my_turtle.forward(100)
-#     my_turtle.right(45)
-# for _ in range(9):
-#     my_turtle.pencolor("thistle3")
-#     my_turtle.forward(100)
-#     my_turtle.right(40)
-# for _ in range(10):
-#     my_turtle.pencolor("RosyBrown2")
-#     my_turtle.forward(100)
-#     my_turtle.right(36)
-# colors = ["maroon", "thistle3", "snow4", "wheat", "violet", "tan", "snow", "salmon"]
-
-# Drawing 8 shapes with functions
-# def shapes(siz):
-#     angle = 360 / siz
-#     my_turtle.color(random.choice(colors))
-#     for _ in range(siz):
-#         my_turtle.forward(100)
-#         my_turtle.left(angle)
-#
-#
-# def size():
-#     for new in range(3, 11):
-#         shapes(new)
-# size()
-
-# random colors with random movement
-# def random_color():
-#     r = random.randint(0, 255)
-#     b = random.randint(0, 255)
-#     g = random.randint(0, 255)
-#     color_tuple = (r, b, g)
-#     return color_tuple
-
-
 my_turtle.speed(10)
-# my_turtle.width(10)
-# moves = [0, 90, 180, 270]
-#
-# for _ in range(100):
-#     my_turtle.color(random_color())
-#     my_turtle.forward(30)
-#     my_turtle.seth(random.choice(moves))
-
-# def draw_spirograph(size_of_gap):
-#     for _ in range(int(360/size_of_gap)):
-#         my_turtle.color(random_color())
-#         my_turtle.speed(100)
-#         my_turtle.circle(120)
-#         my_turtle.seth(my_turtle.heading() + size_of_gap)
 
 
 # draw_spirograph(5)
@@ -140,34 +53,6 @@ my_turtle.setpos(-250, 150)
 printing_lines()
 my_turtle.setpos(-250, 200)
 printing_lines()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
